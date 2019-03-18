@@ -1,0 +1,23 @@
+#main-nav {
+  background: black; }
+
+.row {
+  margin-bottom: 15px; }
+  .row::after {
+    clear: both;
+    display: block;
+    content: ''; }
+
+.nav {
+  margin-left: auto; }
+
+.col {
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+body {
+  background: url("../img/main-banner.jpg") no-repeat fixed;
+  background-size: 100%; }
+
+/*# sourceMappingURL=style.css.map */
