@@ -8,6 +8,7 @@ $mainColor: #c93b01;
 $sectionHeading: 20px;
 $navFont: arial;
 $bodyFont: sans-serif;
+$navfontSize: 30;
 
 
 $columns: 12;
@@ -16,80 +17,90 @@ $columnsWidth: 100% / $columns;
 $mdWidth: 768px;
 $lgWidth: 1200px;
 
-.col12{
-    width: 100%;
-}
-
-.col11{
-    width: 91.66%
-}
-
-.col10{
-    width: 83.33%;
-}
-
-.col9{
-    width: 75%
-}
-
-.col8{
-    width: 66.66%
-}
-
-.col7{
-    width: 58.33%;
-}
-
-.col6{
-    width: 50%;
-}
-
-.col5{
-    width: 41.66%
-}
-
-.col4{
-    width: 33.33%
-}
-
-.col3{
-    width: 25%;
-}
-
-.col2{
-    width: 16.67%
-}
-
-.col1{
-    width: 8.33%;
-}
-
-
-.row{
-  margin-bottom: 15px;
-  &::after{
-    clear: both;
-    display: block;
-    content: '';
-  }
-}
-
-.col{
-  min-height: 100px;
-  float: left;
-  padding: 12px;
-}
-
-.logo{
-  width: 200px;
-  height: 200px;
-  margin: auto;
-}
-
-.pageContainer {
-  max-width: 1000px;
-  margin: 0 auto;
-  color: white;
-  text-align: center;
-  font-family: $navFont;
-}
+// .col12{
+//     width: 100%;
+// }
+//
+// .col11{
+//     width: 91.66%
+// }
+//
+// .col10{
+//     width: 83.33%;
+// }
+//
+// .col9{
+//     width: 75%
+// }
+//
+// .col8{
+//     width: 66.66%
+// }
+//
+// .col7{
+//     width: 58.33%;
+// }
+//
+// .col6{
+//     width: 50%;
+// }
+//
+// .col5{
+//     width: 41.66%
+// }
+//
+// .col4{
+//     width: 33.33%
+// }
+//
+// .col3{
+//     width: 25%;
+// }
+//
+// .col2{
+//     width: 16.67%
+// }
+//
+// .col1{
+//     width: 8.33%;
+// }
+//
+// .row__img {
+//   width:100%;
+//   height: 30%;
+//   margin:auto;
+// }
+//
+// .row{
+//   margin-bottom: 15px;
+//   &::after{
+//     clear: both;
+//     display: block;
+//     content: '';
+//   }
+// }
+//
+// .col{
+//   min-height: 100px;
+//   float: left;
+//   padding: 12px;
+//   color: white;
+// }
+//
+// .logo{
+//   width: 200px;
+//   height: 200px;
+//   margin: auto;
+// }
+//
+// .pageContainer {
+//   max-width: 1000px;
+//   margin: 0 auto;
+//   color: white;
+//   text-align: center;
+//   font-family: $navFont;
+// }
+//
+// .mainbanner{
+//   width: 100%;
+// }
