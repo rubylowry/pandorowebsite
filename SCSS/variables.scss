@@ -1,11 +1,12 @@
 // Variables
+* {
+  margin: 0;
+  padding: 0;
+}
+
 
 $mainColor: #c93b01;
 $sectionHeading: 20px;
-
-#main-nav{
-  background: black;
-}
 
 $columns: 12;
 $columnsWidth: 100% / $columns;
@@ -22,44 +23,27 @@ $lgWidth: 1200px;
   }
 }
 
-.nav{
-  margin-left: auto;
-}
-
-
-.col{
-  float:left;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.sectionHeading a {
-  text-decoration: none;
-  color: white;
-
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   color: white;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+.grid
+div:nth-child(even) {
+  background-color: red;
+}
+
+.grid
+div:nth-child(even) {
+  background-color: green;
+}
+
+header1{
+  float:left;
+}
+
+header2{
+  float:right;
 }
