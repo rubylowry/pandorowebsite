@@ -9,25 +9,19 @@
     display: block;
     content: ''; }
 
+.logo {
+  width: 200px;
+  height: 200px;
+  margin: auto; }
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   color: white;
   text-align: center; }
 
-.grid
-div:nth-child(even) {
-  background-color: red; }
-
-.grid
-div:nth-child(even) {
-  background-color: green; }
-
-header1 {
-  float: left; }
-
-header2 {
-  float: right; }
+.home {
+  font: arial; }
 
 body {
   background: url("../img/main-banner.jpg") no-repeat fixed;
