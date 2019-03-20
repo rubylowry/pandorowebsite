@@ -51,3 +51,79 @@ body {
 
   }
 }
+
+.site{
+  display: grid;
+  grid-template-columns: auto auto;
+  // grid-template-rows: 1fr 1fr 1fr 1fr;
+  // grid-template-areas:
+  // ". index-image index-masthead ."
+  // ". index-sidebar index-content."
+  // ". index-footer index-footer.";
+  // grid-gap: 10px;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.breadimage{
+  display: block;
+  margin: auto;
+  width: 45%;
+  height: 400px;
+}
+.masthead{
+
+}
+
+.main-content{
+
+}
+
+.sidebar{
+
+}
+
+.footer{
+  grid-area: index-footer;
+}
+
+.green {
+  background-color: green;
+  width: 100%;
+  height: 100%;
+}
+
+.red {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+
+.blue {
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+}
+
+.purple {
+  background-color: purple;
+  width: 100%;
+  height: 100%;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (min-width: 736px) {
+
+
+
+
+}
