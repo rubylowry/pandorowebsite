@@ -18,7 +18,7 @@ body {
     // height: 100px;
     width: 100%;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-family: $navFont;
     font-weight: normal;
     background-color: none;
@@ -52,7 +52,7 @@ body {
   }
 }
 
-.site{
+.site {
   display: grid;
   grid-template-columns: auto auto;
   // grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -61,20 +61,29 @@ body {
   // ". index-sidebar index-content."
   // ". index-footer index-footer.";
   // grid-gap: 10px;
-  border: 2px solid white;
+  border: 2px solid black;
   color: white;
   font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
 }
-
-
 
 .breadimage{
   display: block;
   margin: auto;
-  width: 45%;
+  width: 60%;
   height: 400px;
 }
-.masthead{
+
+.cabinetimage{
+  display: block;
+  margin: auto;
+  width: 45%;
+  height: 200px;
+}
+
+.fancytitle{
+  width: 100%;
+  margin: 20px;
 
 }
 
