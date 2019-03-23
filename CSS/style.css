@@ -47,7 +47,7 @@ body {
   align-content: bottom;
   border: 2px solid black;
   color: #c93b01;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 30px; }
 
 .shopfront {
@@ -63,21 +63,42 @@ body {
   text-align: center;
   font-size: 20px; }
 
+.textos {
+  text-align: center;
+  font-size: 20px; }
+
 .card {
   padding: 100px;
   text-align: center;
   color: white;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: "Open Sans", sans-serif; }
+
+.cards {
+  padding: 100px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif; }
 
 .card1 {
   padding: 100px;
   text-align: center;
   color: white;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: "Open Sans", sans-serif; }
+
+.columnleft {
+  float: left;
+  width: 50%;
+  padding-left: 20px; }
+
+.columnright {
+  float: right;
+  width: 50%; }
 
 .leftcolumn {
   float: left;
-  width: 50%; }
+  width: 50%;
+  padding-left: 20px; }
 
 .rightcolumn {
   float: left;
@@ -109,37 +130,34 @@ body {
   display: table;
   clear: both; }
 
-.column {
-  float: center;
-  width: 100%; }
-
 .breadimage {
   border-style: solid;
   border-color: white;
   border-width: 2px;
   display: block;
+  padding: 7px;
   margin: auto;
-  width: 400px;
-  height: 360px; }
+  width: 320px;
+  height: 320px; }
 
 .hotcrossbuns {
   border-style: solid;
   border-color: white;
   border-width: 2px;
   display: block;
+  padding: 7px;
   margin: auto;
-  width: 100%;
-  height: 300px; }
+  width: 290px;
+  height: 270px; }
 
 .fancytitle {
   width: 100%;
   margin: 40px; }
 
-.footer {
-  font-family: sans-serif;
-  color: white;
-  text-align: center;
-  padding: 10px; }
+.fancytitles {
+  margin: auto;
+  color: #c93b01;
+  font-size: 40px; }
 
 .green {
   background-color: green;
